@@ -1,0 +1,27 @@
+.links{
+    list-style: none;
+    text-decoration: none;
+    margin-left:16px;
+    color:aliceblue;
+    height:100%;
+    align-items: center;
+    padding-top:1.2%;
+}
+.links:hover{
+    background:whitesmoke;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    height:96%;
+    width:5%;
+}
+.Navbar{
+    background:rgb(35, 35, 90);
+    height:9vh;
+    width:110%;
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}

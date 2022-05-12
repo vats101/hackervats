@@ -1,0 +1,100 @@
+.box-nav{
+    background-color: #16697A !important;
+    display: flex;
+    justify-content: center;
+}
+
+.add-button, .comm-user{
+    margin-top: 2%;
+}
+.button-1{
+    margin-left: 1%;
+    margin-right: 25%;
+}
+.crsr{
+cursor:pointer;
+}
+.head-greet{
+    margin-top: 12%;
+    color: white;
+    width: 100%;
+    font-size: 150%;
+    justify-content: space-around;
+}
+.head-greet-div{
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.button-2{
+    margin-top: 0.5%;
+    justify-content: space-around;
+}
+.button-comm{
+    border: 1px solid #bad9f5;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 35px;
+    color: white;
+    margin-bottom: 10%;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+.comm-user{
+    color: white;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    margin-right: 2%;
+}
+.user-post{
+    color: #16697A;
+    padding: 2px 3px;
+    margin-bottom: 1%;
+    width: max-content;
+    border: 1px solid #bad9f5;
+    border-radius: 10px;
+}
+.text-post{
+    margin-top: 2%;
+    font-size: 120%;
+}
+.button-comm:hover, .button-comm:focus {
+    background-color: #dbd7cf !important;
+    text-decoration: none;
+    color: #345572;
+  }
+  
+  .button-comm.is-featured {
+    background-color: #489FB5;
+    color: white;
+  }
+  
+  .button-comm.is-featured:hover, .button-comm.is-featured:focus{
+    background-color: #EDE7E3;
+    color: #16697A;
+  }
+
+  .post-list{
+      width: 200% !important;
+  }
+
+  .comm-list{
+      margin-top: 3%;
+    background-color: #e6e3dd !important;
+    text-align: left !important;
+  }
+  .icon-comm:hover{
+      color: #345572;
+      size: 5% !important;
+  }
+
+  .box-posts{
+      background-color: rgb(237, 244, 245) !important;
+      text-align: left;
+      border: 0.5px solid #bad9f5;
+        border-radius: 10px;
+  }
+  .box-posts:hover{
+    border: 0.5px solid #707980;
+    border-radius: 10px;
+}
